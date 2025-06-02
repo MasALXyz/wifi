@@ -1,0 +1,53 @@
+proxies:
+- name: BUG-BIZ 75.141 BIZNET
+  server: 104.20.75.141 
+  port: 443
+  type: trojan
+  password: ponsel6xff0andu79jl4w
+  network: ws
+  sni: biznet-vip.segss.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+        Host: biznet-vip.segss.xyz
+- name: BUG-BIZ 3.81 BIZNET
+  server: 104.17.3.81
+  port: 443
+  type: trojan
+  password: ponsel6xff0andu79jl4w
+  network: ws
+  sni: biznet-vip.segss.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+        Host: biznet-vip.segss.xyz
+- name: BUG-BIZ 75.141 TECHNO
+  server: 104.20.75.141 
+  port: 443
+  type: trojan
+  password: f0eac9e2-274f-45d4-b39f-083fe445c93b
+  network: ws
+  sni: techno-v1.segss.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+        Host: techno-v1.segss.xyz
+- name: BUG-BIZ 3.81 TECHNO
+  server: 104.17.3.81
+  port: 443
+  type: trojan
+  password: f0eac9e2-274f-45d4-b39f-083fe445c93b
+  network: ws
+  sni: techno-v1.segss.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+        Host: techno-v1.segss.xyz
